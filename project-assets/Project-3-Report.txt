@@ -1,0 +1,12 @@
+Project 3 Report:
+
+1. Describe in English how you can break down the larger problem into one or more smaller problem(s).
+This description should include how the solution to the larger problem is constructed
+from the subproblems.
+
+2. What recurrence can you use to model the problem using dynamic programming?
+
+3. Prove that your recurrence is correct.
+
+4. Describe a pseudocode algorithm that uses memoization to solve the problem.
+
