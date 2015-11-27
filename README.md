@@ -8,6 +8,7 @@ Specifically, you will solve the longest ordered path problem. You will need to 
 1.	The vertices of the graph are numbered 1 to n.
 2.	The edges of the graph are numbered 1 to m.
 3.	Every edge goes from a vertex with a lower index to a node with a higher index. That is, every directed edge has the form (i, j) with i < j.
+
 Note, your solution to this problem must use dynamic programming. Solutions based on graph traversal will not receive credit.
 
 ##2 Modeling the problem
@@ -16,9 +17,10 @@ Before you can write a program to solve this problem, you must first write a rep
 1.	Describe in English how you can break down the larger problem into one or more smaller problem(s). This description should include how the solution to the larger problem is constructed from the subproblems.
 2.	What recurrence can you use to model the problem using dynamic programming?
 3.	Prove that your recurrence is correct.
-4	Describe a pseudocode algorithm that uses memoization to solve the problem.
-5	Analyze the complexity of your memoized algorithm.
-6	Describe a pseudocode algorithm that solves the problem iteratively (using dynamic programming). Your algorithm should be optimal in terms of its time and space complexity.
+4.	Describe a pseudocode algorithm that uses memoization to solve the problem.
+5.	Analyze the complexity of your memoized algorithm.
+6.	Describe a pseudocode algorithm that solves the problem iteratively (using dynamic programming). Your algorithm should be optimal in terms of its time and space complexity.
+
 For full credit, your pseudocode must be clear enough that any competent programmer will understand how youf algorithm works and could implement your algorithm in their preferred programming language.
 
 ##3 Coding your solutions
