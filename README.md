@@ -38,16 +38,27 @@ An input file containing this instance appears below. Comments are included so t
 
 Figure 1: An Ordered Graph
 1
+
 5 6 // 5 vertices, 6 edges
+
 1 2 // edge #1, from vertex 1 to vertex 2
+
 1 4 // edge #2, from vertex 1 to vertex 4
+
 2 4 // edge #3, from vertex 2 to vertex 4
+
 2 5 // edge #4, from vertex 2 to vertex 5
-3 4 // edge #5, from vertex 3 to vertex 4 <br/>
+
+3 4 // edge #5, from vertex 3 to vertex 4
+
 4 5 // edge #6, from vertex 4 to vertex 5
+
 The expected output for this instance would be:
+
 3
+
 1 3 6
+
 An example input/output file will be posted on Canvas.
 
 ##4 Submission
@@ -84,4 +95,5 @@ The second part of your submission is a text file that includes
 **Teamwork 30 points**
 *	Follows the given format 5
 *	Participation 25
+
 Note, if your algorithm is inefficient in terms of space or time, you may lose points both for your pseudocode and your implementation.
