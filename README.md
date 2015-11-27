@@ -35,6 +35,7 @@ path. If the input graph has more than one longest path, then any one will do.
 ###3.3 Example
 The ordered graph in Figure 1 has a longest path of length 3: (v1,v2), (v2,v4), (v4,v5).
 An input file containing this instance appears below. Comments are included so there is no ambiguity, but they will not appear in the actual input file.
+
 Figure 1: An Ordered Graph
 1
 5 6 // 5 vertices, 6 edges
@@ -42,7 +43,7 @@ Figure 1: An Ordered Graph
 1 4 // edge #2, from vertex 1 to vertex 4
 2 4 // edge #3, from vertex 2 to vertex 4
 2 5 // edge #4, from vertex 2 to vertex 5
-3 4 // edge #5, from vertex 3 to vertex 4
+3 4 // edge #5, from vertex 3 to vertex 4 <br/>
 4 5 // edge #6, from vertex 4 to vertex 5
 The expected output for this instance would be:
 3
@@ -57,7 +58,7 @@ The first part of your submission is a zip archive containing
 2.	your code (described in Section 3), and 
 3.	a README file describing how to compile and run your code to Canvas. If your code requires more than a simple command to compile and run then you must also provide a Makefile and/or shell script. A simple command
 might be something like: 
-	g++ *.cpp -o longpath
+"g++ *.cpp -o longpath"
 If you are using Boost in your solution, you must provide a Makefile and/or shell script that uses the environment variable $BOOST_HOME (pointing to the Boost installation directory) to compile your code.
 Be aware that your project report and code will be checked for plagiarism.
 The second part of your submission is a text file that includes 
@@ -74,10 +75,12 @@ The second part of your submission is a text file that includes
 *	Memoized pseudocode 5
 *	Memoized complexity 10
 *	Iterative pseudocode 5
+
 **Code 30 points**
 *	README file 5
 *	Compiles and is correct 20
 *	Good coding style 5
+
 **Teamwork 30 points**
 *	Follows the given format 5
 *	Participation 25
