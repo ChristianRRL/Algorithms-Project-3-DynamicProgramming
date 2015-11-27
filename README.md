@@ -37,6 +37,7 @@ The ordered graph in Figure 1 has a longest path of length 3: (v1,v2), (v2,v4), 
 An input file containing this instance appears below. Comments are included so there is no ambiguity, but they will not appear in the actual input file.
 
 Figure 1: An Ordered Graph
+
 1
 
 5 6 // 5 vertices, 6 edges
