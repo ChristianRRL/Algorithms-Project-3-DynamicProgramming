@@ -4,6 +4,7 @@
 This project requires you to first theoretically solve a dynamic programming problem1 and write a program that implements your solution.
 You are only allowed to consult the class slides, the textbook, the TAs, and the professor. In particular, you are not allowed to use the Internet. This is a group project. The only people you can work with on this project are your group members. This policy is strictly enforced.
 Specifically, you will solve the longest ordered path problem. You will need to find the longest path in a given ordered graph, where an ordered graph is a directed graph in which the following are true:
+
 1.	The vertices of the graph are numbered 1 to n.
 2.	The edges of the graph are numbered 1 to m.
 3.	Every edge goes from a vertex with a lower index to a node with a higher index. That is, every directed edge has the form (i, j) with i < j.
@@ -11,6 +12,7 @@ Note, your solution to this problem must use dynamic programming. Solutions base
 
 ##2 Modeling the problem
 Before you can write a program to solve this problem, you must first write a report describing how you will solve this problem. This report should address the following:
+
 1.	Describe in English how you can break down the larger problem into one or more smaller problem(s). This description should include how the solution to the larger problem is constructed from the subproblems.
 2.	What recurrence can you use to model the problem using dynamic programming?
 3.	Prove that your recurrence is correct.
@@ -46,27 +48,37 @@ The expected output for this instance would be:
 3
 1 3 6
 An example input/output file will be posted on Canvas.
+
 ##4 Submission
 Your submission for this project will be in two parts.
-The first part of your submission is a zip archive containing 1) your report (described in Section 2) as a PDF document, 2) your code (described in Section 3), and 3) a README file describing how to compile and run your code to Canvas. If your code requires more than a simple command to compile and run then you must also provide a Makefile and/or shell script. A simple command
+The first part of your submission is a zip archive containing 
+
+1.	your report (described in Section 2) as a PDF document, 
+2.	your code (described in Section 3), and 
+3.	a README file describing how to compile and run your code to Canvas. If your code requires more than a simple command to compile and run then you must also provide a Makefile and/or shell script. A simple command
 might be something like: 
 	g++ *.cpp -o longpath
 If you are using Boost in your solution, you must provide a Makefile and/or shell script that uses the environment variable $BOOST_HOME (pointing to the Boost installation directory) to compile your code.
 Be aware that your project report and code will be checked for plagiarism.
-The second part of your submission is a text file that includes 1) the names of all of your teammates (including yourself), 2) the team member responsibilities, 3) whether or not your teammates were cooperative, 4) a numeric rating indicating the proportional amount of effort each of you put into the project, and 5) other issues we should be aware of when evaluating your and your teammates’ relative contribution. The numeric ratings must be integers that sum to 30.
+The second part of your submission is a text file that includes 
+1.	the names of all of your teammates (including yourself), 
+2.	the team member responsibilities, 
+3.	whether or not your teammates were cooperative, 
+4.	a numeric rating indicating the proportional amount of effort each of you put into the project, and 
+5.	other issues we should be aware of when evaluating your and your teammates’ relative contribution. The numeric ratings must be integers that sum to 30.
 
 ###5 Grading
 **Report 40 points**
-	Dynamic programming model 10
-	Proof of correctness 10
-	Memoized pseudocode 5
-	Memoized complexity 10
-	Iterative pseudocode 5
+*	Dynamic programming model 10
+*	Proof of correctness 10
+*	Memoized pseudocode 5
+*	Memoized complexity 10
+*	Iterative pseudocode 5
 **Code 30 points**
-	README file 5
-	Compiles and is correct 20
-	Good coding style 5
+*	README file 5
+*	Compiles and is correct 20
+*	Good coding style 5
 **Teamwork 30 points**
-	Follows the given format 5
-	Participation 25
+*	Follows the given format 5
+*	Participation 25
 Note, if your algorithm is inefficient in terms of space or time, you may lose points both for your pseudocode and your implementation.
